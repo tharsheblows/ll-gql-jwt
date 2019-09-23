@@ -3,7 +3,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Creates a dummy editor user in WordPress with long lived JWT for use with WPGraphQL.
 
-==Description==
+## Description
 
 If you generate a token via the [WPGraphQL JWT auth plugin](https://github.com/wp-graphql/wp-graphql-jwt-authentication) for the user created in this plugin, it will extend its lifetime to a year and let you know how long you have left on it. (See Settings->Dummy GraphQL user settings in wp-admin.)
 
